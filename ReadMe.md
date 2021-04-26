@@ -1,4 +1,4 @@
-##Introduction##
+##Introduction  
 This Repository contains the population data created by the population synthesis tool by Johannes Ponge, Malte Enbergs and Michael Schlüngel.  
 For now we created a population for every municipality in NRW.  
 The populations are split in one csv per municipality named after the municipality id.  
@@ -7,7 +7,7 @@ A list of NRWs municipalitiy ids with their city names can be obtained from [rec
 The populations themself always represent 100% of the municipalities population. Thereby each line represents one individual. 
 Each individual has a variety of attributes, which refer to the household the individual lives in and the individual itself.  
 
-##Short Attribute Overview
+##Short Attribute Overview  
 The attributes referring to the household are:
 1. *household_id*: The id to identify a household and group its members
 1. *municipality_id*: The id of the municipality the household beslongs to
@@ -22,7 +22,7 @@ The attributes referring to the individual are:
 1. *AG2*: The age group a individual is in
 1. *EMP*: The employment staus of an individual
 
-##Detailed explanation of the attributes:
+##Detailed explanation of the attributes:  
 
 **household_id**  
 The household id consists of the respective municipality id and a assigned number of teh household connected by a "-".
